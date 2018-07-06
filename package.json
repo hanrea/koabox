@@ -1,0 +1,26 @@
+{
+  "name": "ser",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "debug": "node app.js  –debug-brk=5858 "
+  },
+  "author": "Hanrea",
+  "description": "",
+  "dependencies": {
+    "compressible": "~2.0.6",
+    "debug": "*",
+    "fs-readdir-recursive": "~1.0.0",
+    "jade": "^1.11.0",
+    "koa": "^2.0.0",
+    "koa-router": "^7.0.1",
+    "koa-session2": "^1.0.8",
+    "koa-views": "^5.0.2",
+    "mime-types": "~2.1.8",
+    "mz": "~2.4.0",
+    "node-schedule": "^1.2.0",
+    "pg": "^6.1.2",
+    "sequelize": "3.24.8"
+  }
+}
